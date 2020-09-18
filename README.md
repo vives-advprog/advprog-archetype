@@ -29,5 +29,5 @@ When the archetype has been installed locally you can create a project using the
 * [Maven](https://maven.apache.org)
 * [Maven Archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html)
 * [JUnit 5](https://junit.org/junit5/)
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/)
+* [AssertJ](https://joel-costigliola.github.io/assertj/)
 * [Thanks to](https://github.com/deangerber/java11-junit5-archetype)
