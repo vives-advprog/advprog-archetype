@@ -1,13 +1,12 @@
 package ${package};
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AppTest {
 
   @Test
   void stupidTest() {
-    assertTrue(true);
+    assertThat(1==1).isTrue();
   }
 }

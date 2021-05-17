@@ -4,12 +4,25 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>be.vives.ti</groupId>
   <artifactId>advanced_programming</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.2</version>
   <name>advanced_programming java11-junit5-archetype</name>
   <packaging>maven-archetype</packaging>
   <description>Archetype used to generate basic JAVA 11 and JUnit 5 application for OPO Advanced Programming</description>
 
   <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.1.0</version>
+          <configuration>
+            <!-- Required so that .gitignore gets included in archetypes -->
+            <addDefaultExcludes>false</addDefaultExcludes>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
     <extensions>
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
